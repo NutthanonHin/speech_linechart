@@ -1,0 +1,42 @@
+#datepicker-container {
+    margin: 0 5rem;
+}
+#chartContainer{
+    height: 370px;
+    width: 90%;
+    margin: 5rem auto 0;
+}
+.fullcolumn{
+    width: 100%!important;
+    clear: both!important;
+    display: block;
+}
+.halfcolumnleft {
+    width: 48%!important;
+    float: left;
+    clear: none;
+    display: block;
+}
+.halfcolumnright {
+    width: 48%!important;
+    float: right;
+    clear: none;
+    display: block;
+    text-align: end;
+}
+
+.halfcolumnright button {
+    color: #8b37fb;
+    min-height: 30px;
+    min-width: 70px;
+    border: 2px solid #8b37fb;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.halfcolumnright button:hover{
+    background-color: #8b37fb;
+    color: white;
+
+}
